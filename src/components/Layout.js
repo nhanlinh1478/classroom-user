@@ -66,7 +66,7 @@ export default function Layout({ children }) {
       >
         <Toolbar className={classes.toolbar}>
           <Typography>
-            {location.pathname == text
+            {location.pathname === text
               ? "Welcome to my Classes"
               : "Create Class"}
           </Typography>
